@@ -1,0 +1,17 @@
+# Configuración de Streamlit para Bolsa2.
+# Streamlit Cloud lee la sección [theme]; el puerto lo asigna la plataforma,
+# por eso no se fija aquí (en local se usa el 8501 por defecto).
+
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f2f5f9"
+textColor = "#1c2430"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
